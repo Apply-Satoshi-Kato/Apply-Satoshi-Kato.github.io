@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
+    font-family: 'Arial', sans-serif;
+    color: #f0f0f0;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#game-board {
+    border: 1px solid #f0f0f0;
+    background-color: #000;
+}
+
+#lines-cleared, #falling-speed {
+    position: absolute;
+    left: calc(50% + 150px + 20px);
+    font-size: 18px;
+}
+
+#falling-speed {
+    top: 50px;
+}
